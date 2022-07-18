@@ -47,9 +47,12 @@
   display: flex;
   justify-content: space-around;
  margin-left: 26%;
-  width: 650px;
+  width: 55%;
   height: 200px;
   border: 2px solid rgb(117, 216, 247);
+  border-radius: 10px;
+  
+  
 }
 .dataBox-name{
   margin-top: 45px;
@@ -62,6 +65,57 @@
   text-decoration: underline;
 }
 .nametem{
-  height: 210px;
+   height: 210px;
   width: 100%;
+ }
+@media screen and (max-width: 680px) {
+  .mainBox-name{
+    margin-top:30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   margin-left: 26%;
+    width: 70%;
+    height: 100%;
+    border: 2px solid rgb(117, 216, 247);
+    border-radius: 10px;
+    margin-bottom: 40px;
+        
+  }
+  .image{
+    width: 120px;
+    height: 80px;
+    border-radius: 50%;   
+    margin-top: 5px;
+    
+  }
+  .nametem{
+    height: 300px;
+   width: 100%;
+  }
+  .dataBox-name{
+    margin-top: -20px;
+    margin-left: 30px;
+   
+  }
+}
+@media screen and (min-width: 680px) and (max-width: 992px) {
+  .image{
+    width: 120px;
+    height: 80px;
+    border-radius: 50%;   
+    margin-top: 5px;
+    margin-top: 40px;
+    
+  }
+  .nametem{
+    height: 300px;
+   width: 100%;
+  }
+  .dataBox-name{
+   margin-top: 5px;
+    margin-left: 30px;
+   
+  }
 }

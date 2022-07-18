@@ -12,7 +12,8 @@ const NamePlate = ({gender, title, first, last,imag,number,area,city,state,count
         </div>
         <div className='dataBox-name'>
            <h2 className='nameName'>{`${title} ${first} ${last}`}</h2>
-           <p><span style={{color:"#A259FF"}}>{`${number}`}</span>{`,${area},${city},${state},`}<span style={{fontWeight:"bold"}}>{`${country}`}</span>{`,${postcode}`}<br/>
+           <p><span style={{color:"#A259FF"}}>{`${number}`}</span>{`,${area},${city},${state},`}<span style={{fontWeight:"bold"}}>
+            {`${country}`}</span>{`,${postcode}`}<br/>
            {`${offset}-${description}`}
            <br/>
            {capitalizeFirstLetter(gender)}
